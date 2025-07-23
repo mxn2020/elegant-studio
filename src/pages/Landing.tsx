@@ -114,8 +114,8 @@ export const Landing: React.FC = () => {
 
   const stats = [
     { label: "Projects Completed", value: "500+" },
-    { label: "Years Experience", value: "25+" },
-    { label: "Happy Clients", value: "450+" },
+    { label: "Years Experience", value: "5+" },
+    { label: "Happy Clients", value: "50+" },
     { label: "Team Members", value: "50+" }
   ];
 
@@ -344,7 +344,7 @@ export const Landing: React.FC = () => {
                   devId={getStatCardId(index)}
                   devName={`${stat.label} Construction Stat`}
                   devDescription={`Construction statistic showing ${stat.label}: ${stat.value}`}
-                  className="bg-white/5 backdrop-blur-sm rounded-xl p-6 text-center border border-white/10"
+                  className="bg-white/5 backdrop-blur-sm rounded-xl p-6 text-center border border-white/10 transition-all hover:scale-110 transform"
                 >
                   <CardContent devId="noID" className="p-0">
                     <Div devId="noID" className="text-2xl font-bold text-white mb-2">{stat.value}</Div>
