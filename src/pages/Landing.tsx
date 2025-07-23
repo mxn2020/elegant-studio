@@ -1,7 +1,7 @@
 // src/pages/Landing.tsx
 
 import React, { useState, useEffect } from 'react';
-import { Hammer, Users, CheckCircle, Phone, Mail, MapPin, Star, Building, Wrench, Home, User, Send } from 'lucide-react';
+import { Hammer, Users, CheckCircle, Phone, Mail, MapPin, Building, Wrench, Home, User, Send } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Container, Button, Card, CardContent, Badge, Header, Nav, Section, Span, H1, H2, H3, P, Div, Footer, Input, Textarea } from '../lib/dev-container';
 import { useAuth } from '../components/auth/AuthProvider';
