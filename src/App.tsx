@@ -30,6 +30,30 @@ function App() {
                     </ProtectedRoute>
                   } 
                 />
+                <Route 
+                  path="/dashboard/clients" 
+                  element={
+                    <ProtectedRoute>
+                      <Dashboard />
+                    </ProtectedRoute>
+                  } 
+                />
+                <Route 
+                  path="/dashboard/tasks" 
+                  element={
+                    <ProtectedRoute>
+                      <Dashboard />
+                    </ProtectedRoute>
+                  } 
+                />
+                <Route 
+                  path="/dashboard/contacts" 
+                  element={
+                    <ProtectedRoute>
+                      <Dashboard />
+                    </ProtectedRoute>
+                  } 
+                />
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </div>
